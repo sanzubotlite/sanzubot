@@ -3,10 +3,10 @@
 apt update && apt upgrade -y && add-apt-repository 'ppa:deadsnakes/ppa'
 ```
 ```
-git clone https://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@github.com/NATZTTT/ubotlite
+git clone https://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@github.com/sanzubotlite/sanzubot
 ```
 ```
-cd ubotlite && screen -S ubotlite
+cd sanzubot && screen -S sanzubot
 ```
 ```
 cp sample.env .env && apt install ffmpeg -y && bash installnode.sh
